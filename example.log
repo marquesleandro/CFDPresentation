@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.22)  21 APR 2021 19:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.22)  21 APR 2021 20:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1651,9 +1651,9 @@ Overfull \vbox (113.6973pt too high) has occurred while \output is active []
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logos/titlepage.jpg> <./
-logos/AP_logo_square.png>] [2
+logos/AP_logo_square.jpg>] [2
 
- <./logos/AP_logo_square.png>]
+ <./logos/AP_logo_square.jpg>]
 LaTeX Font Info:    Try loading font information for U+msa on input line 56.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1671,11 +1671,7 @@ line 56.
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-Underfull \hbox (badness 3000) in paragraph at lines 56--56
-[]\T1/cmss/m/n/10.95 To de-ve-lop a ALE-FE code for
- []
-
-<images/stent_bare.jpg, id=34, 359.84438pt x 543.53062pt>
+<images/stent_bare.jpg, id=31, 359.84438pt x 543.53062pt>
 File: images/stent_bare.jpg Graphic file (type jpg)
 <use images/stent_bare.jpg>
 Package pdftex.def Info: images/stent_bare.jpg  used on input line 56.
@@ -1763,7 +1759,7 @@ Overfull \hbox (4.08516pt too wide) in paragraph at lines 307--307
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.361 \end{frame}
+l.357 \end{frame}
                  
 ? 
 [6
@@ -1777,7 +1773,7 @@ See the pgfkeys package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.446 \end{frame}
+l.442 \end{frame}
                  
 ? 
 
@@ -1788,7 +1784,7 @@ See the pgfkeys package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.446 \end{frame}
+l.442 \end{frame}
                  
 ? 
 [7
@@ -1796,6 +1792,12 @@ l.446 \end{frame}
 ]
 Underfull \hbox (badness 5374) in paragraph at lines 497--497
 \T1/cmss/m/n/10.95 to ex-ces-sive com-pu-ta-ti-o-nal
+ []
+
+
+Overfull \hbox (4.44794pt too wide) detected at line 497
+[] \OT1/cmss/m/n/10.95 = \OMS/cmsy/m/n/10.95 ^^@r\OT1/mathkerncmss/m/sl/10.95 p
+[] \OT1/cmss/m/n/10.95 + []\OMS/cmsy/m/n/10.95 r[][][]
  []
 
 [8
@@ -1869,15 +1871,25 @@ l.718 \end{frame}
 ? 
 [9
 
-] [10
+]
+Overfull \hbox (18.0402pt too wide) in paragraph at lines 801--801
+ [] 
+ []
+
+
+Overfull \hbox (34.48523pt too wide) detected at line 801
+[] [] \OT1/cmss/m/n/10.95 = [] + \OT1/mathkerncmss/m/sl/10.95 bc
+ []
+
+[10
 
 ] [11
 
 ]
-<images/Smoothing.png, id=99, 791.95876pt x 282.05376pt>
+<images/Smoothing.png, id=96, 791.95876pt x 282.05376pt>
 File: images/Smoothing.png Graphic file (type png)
 <use images/Smoothing.png>
-Package pdftex.def Info: images/Smoothing.png  used on input line 874.
+Package pdftex.def Info: images/Smoothing.png  used on input line 881.
 (pdftex.def)             Requested size: 158.38895pt x 56.40974pt.
 
 
@@ -1887,30 +1899,30 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.874 \end{frame}
+l.881 \end{frame}
                  
 ? 
 ! Undefined control sequence.
 \caption ... \endcsname \fi \fi \@dblarg {\@tempf 
                                                   \@captype }
-l.874 \end{frame}
+l.881 \end{frame}
                  
 ? 
 ! Undefined control sequence.
 \caption ...e \fi \fi \@dblarg {\@tempf \@captype 
                                                   }
-l.874 \end{frame}
+l.881 \end{frame}
                  
 ? 
 
-Overfull \hbox (1.42056pt too wide) in paragraph at lines 874--874
+Overfull \hbox (1.42056pt too wide) in paragraph at lines 881--881
  [] 
  []
 
-<images/noSmoothing.png, id=100, 796.9775pt x 280.04625pt>
+<images/noSmoothing.png, id=98, 796.9775pt x 280.04625pt>
 File: images/noSmoothing.png Graphic file (type png)
 <use images/noSmoothing.png>
-Package pdftex.def Info: images/noSmoothing.png  used on input line 874.
+Package pdftex.def Info: images/noSmoothing.png  used on input line 881.
 (pdftex.def)             Requested size: 159.39267pt x 56.00824pt.
 
 ! LaTeX Error: \caption outside float.
@@ -1919,23 +1931,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.874 \end{frame}
+l.881 \end{frame}
                  
 ? 
 ! Undefined control sequence.
 \caption ... \endcsname \fi \fi \@dblarg {\@tempf 
                                                   \@captype }
-l.874 \end{frame}
+l.881 \end{frame}
                  
 ? 
 ! Undefined control sequence.
 \caption ...e \fi \fi \@dblarg {\@tempf \@captype 
                                                   }
-l.874 \end{frame}
+l.881 \end{frame}
                  
 ? 
 
-Overfull \hbox (2.42429pt too wide) in paragraph at lines 874--874
+Overfull \hbox (2.42429pt too wide) in paragraph at lines 881--881
  [][] 
  []
 
@@ -1944,10 +1956,10 @@ Overfull \hbox (2.42429pt too wide) in paragraph at lines 874--874
  <./images/Smoothing.png> <./images/noSmoothing.png>] [13
 
 ]
-<images/uml.png, id=114, 672.5125pt x 697.60625pt>
+<images/uml.png, id=112, 672.5125pt x 697.60625pt>
 File: images/uml.png Graphic file (type png)
 <use images/uml.png>
-Package pdftex.def Info: images/uml.png  used on input line 907.
+Package pdftex.def Info: images/uml.png  used on input line 914.
 (pdftex.def)             Requested size: 201.7553pt x 209.28348pt.
 
 
@@ -1957,23 +1969,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.907 \end{frame}
+l.914 \end{frame}
                  
 ? 
 ! Undefined control sequence.
 \caption ... \endcsname \fi \fi \@dblarg {\@tempf 
                                                   \@captype }
-l.907 \end{frame}
+l.914 \end{frame}
                  
 ? 
 ! Undefined control sequence.
 \caption ...e \fi \fi \@dblarg {\@tempf \@captype 
                                                   }
-l.907 \end{frame}
+l.914 \end{frame}
                  
 ? 
 
-Overfull \vbox (8.68788pt too high) detected at line 907
+Overfull \vbox (8.68788pt too high) detected at line 914
  []
 
 [14
@@ -1981,7 +1993,7 @@ Overfull \vbox (8.68788pt too high) detected at line 907
  <./images/uml.png>] [15
 
 ]
-Overfull \hbox (1.52223pt too wide) in paragraph at lines 991--991
+Overfull \hbox (1.52223pt too wide) in paragraph at lines 998--998
  [] 
  []
 
@@ -1990,28 +2002,28 @@ Overfull \hbox (1.52223pt too wide) in paragraph at lines 991--991
 ] [17
 
 ]
-Overfull \hbox (4.33162pt too wide) in paragraph at lines 1151--1151
+Overfull \hbox (4.33162pt too wide) in paragraph at lines 1158--1158
 [][]  
  []
 
-<images/poiseuille_velocity.pdf, id=138, 462.52798pt x 346.89601pt>
+<images/poiseuille_velocity.pdf, id=136, 462.52798pt x 346.89601pt>
 File: images/poiseuille_velocity.pdf Graphic file (type pdf)
 <use images/poiseuille_velocity.pdf>
 Package pdftex.def Info: images/poiseuille_velocity.pdf  used on input line 115
-1.
+8.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
 
-Overfull \hbox (12.34172pt too wide) in paragraph at lines 1151--1151
+Overfull \hbox (12.34172pt too wide) in paragraph at lines 1158--1158
 [][]  
  []
 
-<images/poiseuille_error.pdf, id=139, 462.52798pt x 346.89601pt>
+<images/poiseuille_error.pdf, id=137, 462.52798pt x 346.89601pt>
 File: images/poiseuille_error.pdf Graphic file (type pdf)
 <use images/poiseuille_error.pdf>
-Package pdftex.def Info: images/poiseuille_error.pdf  used on input line 1151.
+Package pdftex.def Info: images/poiseuille_error.pdf  used on input line 1158.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
 
-Overfull \hbox (12.34172pt too wide) in paragraph at lines 1151--1151
+Overfull \hbox (12.34172pt too wide) in paragraph at lines 1158--1158
 []  
  []
 
@@ -2022,51 +2034,51 @@ Overfull \hbox (12.34172pt too wide) in paragraph at lines 1151--1151
 pdfTeX warning: pdflatex (file ./images/poiseuille_error.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >]
-Overfull \hbox (17.9891pt too wide) in paragraph at lines 1194--1194
+Overfull \hbox (17.9891pt too wide) in paragraph at lines 1201--1201
 [][]  
  []
 
-<images/half_poiseuille_velocity.pdf, id=179, 462.52798pt x 346.89601pt>
+<images/half_poiseuille_velocity.pdf, id=178, 462.52798pt x 346.89601pt>
 File: images/half_poiseuille_velocity.pdf Graphic file (type pdf)
 <use images/half_poiseuille_velocity.pdf>
 Package pdftex.def Info: images/half_poiseuille_velocity.pdf  used on input lin
-e 1194.
+e 1201.
 (pdftex.def)             Requested size: 217.38817pt x 163.04114pt.
 
-Overfull \vbox (5.07858pt too high) detected at line 1194
+Overfull \vbox (5.07858pt too high) detected at line 1201
  []
 
 [19
 
  <./images/half_poiseuille_velocity.pdf>]
-Overfull \hbox (8.78113pt too wide) in paragraph at lines 1264--1264
+Overfull \hbox (8.78113pt too wide) in paragraph at lines 1271--1271
 [][]  
  []
 
 <./images/Re_100_u_profile.pdf, id=198, 462.52798pt x 346.89601pt>
 File: ./images/Re_100_u_profile.pdf Graphic file (type pdf)
 <use ./images/Re_100_u_profile.pdf>
-Package pdftex.def Info: ./images/Re_100_u_profile.pdf  used on input line 1264
+Package pdftex.def Info: ./images/Re_100_u_profile.pdf  used on input line 1271
 .
 (pdftex.def)             Requested size: 189.6377pt x 142.22827pt.
 
-Overfull \hbox (16.97151pt too wide) in paragraph at lines 1264--1264
+Overfull \hbox (16.97151pt too wide) in paragraph at lines 1271--1271
 [][]  
  []
 
 <./images/Re_100_v_profile.pdf, id=199, 462.52798pt x 346.89601pt>
 File: ./images/Re_100_v_profile.pdf Graphic file (type pdf)
 <use ./images/Re_100_v_profile.pdf>
-Package pdftex.def Info: ./images/Re_100_v_profile.pdf  used on input line 1264
+Package pdftex.def Info: ./images/Re_100_v_profile.pdf  used on input line 1271
 .
 (pdftex.def)             Requested size: 189.6377pt x 142.22827pt.
 
-Overfull \hbox (16.97151pt too wide) in paragraph at lines 1264--1264
+Overfull \hbox (16.97151pt too wide) in paragraph at lines 1271--1271
 []  
  []
 
 
-Overfull \vbox (1.3465pt too high) detected at line 1264
+Overfull \vbox (1.3465pt too high) detected at line 1271
  []
 
 [20
@@ -2076,35 +2088,35 @@ Overfull \vbox (1.3465pt too high) detected at line 1264
 pdfTeX warning: pdflatex (file ./images/Re_100_v_profile.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >]
-Overfull \hbox (43.9234pt too wide) detected at line 1308
+Overfull \hbox (43.9234pt too wide) detected at line 1315
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
 [21
 
 ]
-<./images/SLlinear0.pdf, id=242, 462.52798pt x 346.89601pt>
+<./images/SLlinear0.pdf, id=243, 462.52798pt x 346.89601pt>
 File: ./images/SLlinear0.pdf Graphic file (type pdf)
 <use ./images/SLlinear0.pdf>
-Package pdftex.def Info: ./images/SLlinear0.pdf  used on input line 1340.
+Package pdftex.def Info: ./images/SLlinear0.pdf  used on input line 1347.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-<./images/SLlinear1.pdf, id=243, 462.52798pt x 346.89601pt>
+<./images/SLlinear1.pdf, id=244, 462.52798pt x 346.89601pt>
 File: ./images/SLlinear1.pdf Graphic file (type pdf)
 <use ./images/SLlinear1.pdf>
-Package pdftex.def Info: ./images/SLlinear1.pdf  used on input line 1340.
+Package pdftex.def Info: ./images/SLlinear1.pdf  used on input line 1347.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-<./images/SLlinear2.pdf, id=244, 462.52798pt x 346.89601pt>
+<./images/SLlinear2.pdf, id=245, 462.52798pt x 346.89601pt>
 File: ./images/SLlinear2.pdf Graphic file (type pdf)
 <use ./images/SLlinear2.pdf>
-Package pdftex.def Info: ./images/SLlinear2.pdf  used on input line 1340.
+Package pdftex.def Info: ./images/SLlinear2.pdf  used on input line 1347.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-<./images/SLlinear3.pdf, id=245, 462.52798pt x 346.89601pt>
+<./images/SLlinear3.pdf, id=246, 462.52798pt x 346.89601pt>
 File: ./images/SLlinear3.pdf Graphic file (type pdf)
 <use ./images/SLlinear3.pdf>
-Package pdftex.def Info: ./images/SLlinear3.pdf  used on input line 1340.
+Package pdftex.def Info: ./images/SLlinear3.pdf  used on input line 1347.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
 
-Overfull \vbox (7.86502pt too high) detected at line 1340
+Overfull \vbox (7.86502pt too high) detected at line 1347
  []
 
 [22
@@ -2122,56 +2134,56 @@ pdfTeX warning: pdflatex (file ./images/SLlinear2.pdf): PDF inclusion: multiple
 pdfTeX warning: pdflatex (file ./images/SLlinear3.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
 >]
-<./images/figSLlinear0.png, id=291, 489.83pt x 491.8375pt>
+<./images/figSLlinear0.png, id=293, 489.83pt x 491.8375pt>
 File: ./images/figSLlinear0.png Graphic file (type png)
 <use ./images/figSLlinear0.png>
-Package pdftex.def Info: ./images/figSLlinear0.png  used on input line 1376.
+Package pdftex.def Info: ./images/figSLlinear0.png  used on input line 1383.
 (pdftex.def)             Requested size: 107.76292pt x 108.20457pt.
-<./images/figSLlinear1.png, id=292, 491.8375pt x 492.84125pt>
+<./images/figSLlinear1.png, id=294, 491.8375pt x 492.84125pt>
 File: ./images/figSLlinear1.png Graphic file (type png)
 <use ./images/figSLlinear1.png>
-Package pdftex.def Info: ./images/figSLlinear1.png  used on input line 1376.
+Package pdftex.def Info: ./images/figSLlinear1.png  used on input line 1383.
 (pdftex.def)             Requested size: 108.20457pt x 108.4254pt.
-<./images/figSLlinear2.png, id=293, 491.8375pt x 494.84875pt>
+<./images/figSLlinear2.png, id=295, 491.8375pt x 494.84875pt>
 File: ./images/figSLlinear2.png Graphic file (type png)
 <use ./images/figSLlinear2.png>
-Package pdftex.def Info: ./images/figSLlinear2.png  used on input line 1376.
+Package pdftex.def Info: ./images/figSLlinear2.png  used on input line 1383.
 (pdftex.def)             Requested size: 108.20457pt x 108.86705pt.
-<./images/figSLlinear3.png, id=294, 491.8375pt x 493.845pt>
+<./images/figSLlinear3.png, id=296, 491.8375pt x 493.845pt>
 File: ./images/figSLlinear3.png Graphic file (type png)
 <use ./images/figSLlinear3.png>
-Package pdftex.def Info: ./images/figSLlinear3.png  used on input line 1376.
+Package pdftex.def Info: ./images/figSLlinear3.png  used on input line 1383.
 (pdftex.def)             Requested size: 108.20457pt x 108.64622pt.
 
-Overfull \vbox (4.74132pt too high) detected at line 1376
+Overfull \vbox (4.74132pt too high) detected at line 1383
  []
 
 [23
 
  <./images/figSLlinear0.png> <./images/figSLlinear1.png> <./images/figSLlinear2
 .png> <./images/figSLlinear3.png>]
-<./images/SLquad0.pdf, id=304, 462.52798pt x 346.89601pt>
+<./images/SLquad0.pdf, id=306, 462.52798pt x 346.89601pt>
 File: ./images/SLquad0.pdf Graphic file (type pdf)
 <use ./images/SLquad0.pdf>
-Package pdftex.def Info: ./images/SLquad0.pdf  used on input line 1411.
+Package pdftex.def Info: ./images/SLquad0.pdf  used on input line 1418.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-<./images/SLquad1.pdf, id=305, 462.52798pt x 346.89601pt>
+<./images/SLquad1.pdf, id=307, 462.52798pt x 346.89601pt>
 File: ./images/SLquad1.pdf Graphic file (type pdf)
 <use ./images/SLquad1.pdf>
-Package pdftex.def Info: ./images/SLquad1.pdf  used on input line 1411.
+Package pdftex.def Info: ./images/SLquad1.pdf  used on input line 1418.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-<./images/SLquad2.pdf, id=306, 462.52798pt x 346.89601pt>
+<./images/SLquad2.pdf, id=308, 462.52798pt x 346.89601pt>
 File: ./images/SLquad2.pdf Graphic file (type pdf)
 <use ./images/SLquad2.pdf>
-Package pdftex.def Info: ./images/SLquad2.pdf  used on input line 1411.
+Package pdftex.def Info: ./images/SLquad2.pdf  used on input line 1418.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-<./images/SLquad3.pdf, id=307, 462.52798pt x 346.89601pt>
+<./images/SLquad3.pdf, id=309, 462.52798pt x 346.89601pt>
 File: ./images/SLquad3.pdf Graphic file (type pdf)
 <use ./images/SLquad3.pdf>
-Package pdftex.def Info: ./images/SLquad3.pdf  used on input line 1411.
+Package pdftex.def Info: ./images/SLquad3.pdf  used on input line 1418.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
 
-Overfull \vbox (7.86502pt too high) detected at line 1411
+Overfull \vbox (7.86502pt too high) detected at line 1418
  []
 
 [24
@@ -2189,28 +2201,28 @@ dfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./images/SLquad3.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
 >]
-<./images/figSLquad0.png, id=354, 491.8375pt x 494.84875pt>
+<./images/figSLquad0.png, id=357, 491.8375pt x 494.84875pt>
 File: ./images/figSLquad0.png Graphic file (type png)
 <use ./images/figSLquad0.png>
-Package pdftex.def Info: ./images/figSLquad0.png  used on input line 1445.
+Package pdftex.def Info: ./images/figSLquad0.png  used on input line 1452.
 (pdftex.def)             Requested size: 108.20457pt x 108.86705pt.
-<./images/figSLquad1.png, id=355, 492.84125pt x 494.84875pt>
+<./images/figSLquad1.png, id=358, 492.84125pt x 494.84875pt>
 File: ./images/figSLquad1.png Graphic file (type png)
 <use ./images/figSLquad1.png>
-Package pdftex.def Info: ./images/figSLquad1.png  used on input line 1445.
+Package pdftex.def Info: ./images/figSLquad1.png  used on input line 1452.
 (pdftex.def)             Requested size: 108.4254pt x 108.86705pt.
-<./images/figSLquad2.png, id=356, 490.83376pt x 492.84125pt>
+<./images/figSLquad2.png, id=359, 490.83376pt x 492.84125pt>
 File: ./images/figSLquad2.png Graphic file (type png)
 <use ./images/figSLquad2.png>
-Package pdftex.def Info: ./images/figSLquad2.png  used on input line 1445.
+Package pdftex.def Info: ./images/figSLquad2.png  used on input line 1452.
 (pdftex.def)             Requested size: 107.98375pt x 108.4254pt.
-<./images/figSLquad3.png, id=357, 491.8375pt x 494.84875pt>
+<./images/figSLquad3.png, id=360, 491.8375pt x 494.84875pt>
 File: ./images/figSLquad3.png Graphic file (type png)
 <use ./images/figSLquad3.png>
-Package pdftex.def Info: ./images/figSLquad3.png  used on input line 1445.
+Package pdftex.def Info: ./images/figSLquad3.png  used on input line 1452.
 (pdftex.def)             Requested size: 108.20457pt x 108.86705pt.
 
-Overfull \vbox (5.18297pt too high) detected at line 1445
+Overfull \vbox (5.18297pt too high) detected at line 1452
  []
 
 [25
@@ -2219,15 +2231,15 @@ Overfull \vbox (5.18297pt too high) detected at line 1445
 <./images/figSLquad3.png>] [26
 
 ]
-<images/CurvedStrut.png, id=373, 884.30376pt x 99.37125pt>
+<images/CurvedStrut.png, id=376, 884.30376pt x 99.37125pt>
 File: images/CurvedStrut.png Graphic file (type png)
 <use images/CurvedStrut.png>
-Package pdftex.def Info: images/CurvedStrut.png  used on input line 1616.
+Package pdftex.def Info: images/CurvedStrut.png  used on input line 1623.
 (pdftex.def)             Requested size: 132.63983pt x 14.90503pt.
-<images/RealStrut.png, id=374, 890.32625pt x 129.48375pt>
+<images/RealStrut.png, id=377, 890.32625pt x 129.48375pt>
 File: images/RealStrut.png Graphic file (type png)
 <use images/RealStrut.png>
-Package pdftex.def Info: images/RealStrut.png  used on input line 1616.
+Package pdftex.def Info: images/RealStrut.png  used on input line 1623.
 (pdftex.def)             Requested size: 133.54317pt x 19.4217pt.
 
 
@@ -2237,66 +2249,66 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1616 \end{frame}
+l.1623 \end{frame}
                   
 ? 
 [27
 
  <./images/CurvedStrut.png> <./images/RealStrut.png>]
-<images/vel_CurvedStrut3.png, id=380, 1219.55624pt x 132.495pt>
+<images/vel_CurvedStrut3.png, id=383, 1219.55624pt x 132.495pt>
 File: images/vel_CurvedStrut3.png Graphic file (type png)
 <use images/vel_CurvedStrut3.png>
-Package pdftex.def Info: images/vel_CurvedStrut3.png  used on input line 1734.
+Package pdftex.def Info: images/vel_CurvedStrut3.png  used on input line 1741.
 (pdftex.def)             Requested size: 146.34042pt x 15.89871pt.
-<images/vel_RealStrut3.png, id=381, 1223.57124pt x 172.645pt>
+<images/vel_RealStrut3.png, id=384, 1223.57124pt x 172.645pt>
 File: images/vel_RealStrut3.png Graphic file (type png)
 <use images/vel_RealStrut3.png>
-Package pdftex.def Info: images/vel_RealStrut3.png  used on input line 1734.
+Package pdftex.def Info: images/vel_RealStrut3.png  used on input line 1741.
 (pdftex.def)             Requested size: 146.8222pt x 20.71649pt.
-<images/vel_CurvedStrut5.png, id=382, 1219.55624pt x 130.4875pt>
+<images/vel_CurvedStrut5.png, id=385, 1219.55624pt x 130.4875pt>
 File: images/vel_CurvedStrut5.png Graphic file (type png)
 <use images/vel_CurvedStrut5.png>
-Package pdftex.def Info: images/vel_CurvedStrut5.png  used on input line 1734.
+Package pdftex.def Info: images/vel_CurvedStrut5.png  used on input line 1741.
 (pdftex.def)             Requested size: 146.34042pt x 15.65782pt.
-<images/vel_RealStrut5.png, id=383, 1223.57124pt x 172.645pt>
+<images/vel_RealStrut5.png, id=386, 1223.57124pt x 172.645pt>
 File: images/vel_RealStrut5.png Graphic file (type png)
 <use images/vel_RealStrut5.png>
-Package pdftex.def Info: images/vel_RealStrut5.png  used on input line 1734.
+Package pdftex.def Info: images/vel_RealStrut5.png  used on input line 1741.
 (pdftex.def)             Requested size: 146.8222pt x 20.71649pt.
-<images/vel_CurvedStrut8.png, id=384, 1219.55624pt x 130.4875pt>
+<images/vel_CurvedStrut8.png, id=387, 1219.55624pt x 130.4875pt>
 File: images/vel_CurvedStrut8.png Graphic file (type png)
 <use images/vel_CurvedStrut8.png>
-Package pdftex.def Info: images/vel_CurvedStrut8.png  used on input line 1734.
+Package pdftex.def Info: images/vel_CurvedStrut8.png  used on input line 1741.
 (pdftex.def)             Requested size: 146.34042pt x 15.65782pt.
-<images/vel_RealStrut8.png, id=385, 1223.57124pt x 171.64125pt>
+<images/vel_RealStrut8.png, id=388, 1223.57124pt x 171.64125pt>
 File: images/vel_RealStrut8.png Graphic file (type png)
 <use images/vel_RealStrut8.png>
-Package pdftex.def Info: images/vel_RealStrut8.png  used on input line 1734.
+Package pdftex.def Info: images/vel_RealStrut8.png  used on input line 1741.
 (pdftex.def)             Requested size: 146.8222pt x 20.59605pt.
-<images/vel_CurvedStrut_evol.pdf, id=386, 462.52798pt x 346.89601pt>
+<images/vel_CurvedStrut_evol.pdf, id=389, 462.52798pt x 346.89601pt>
 File: images/vel_CurvedStrut_evol.pdf Graphic file (type pdf)
 <use images/vel_CurvedStrut_evol.pdf>
 Package pdftex.def Info: images/vel_CurvedStrut_evol.pdf  used on input line 17
-34.
+41.
 (pdftex.def)             Requested size: 161.8872pt x 121.41542pt.
 
-Overfull \hbox (4.91882pt too wide) in paragraph at lines 1734--1734
+Overfull \hbox (4.91882pt too wide) in paragraph at lines 1741--1741
  [][] 
  []
 
-<images/vel_RealStrut_evol.pdf, id=387, 462.52798pt x 346.89601pt>
+<images/vel_RealStrut_evol.pdf, id=390, 462.52798pt x 346.89601pt>
 File: images/vel_RealStrut_evol.pdf Graphic file (type pdf)
 <use images/vel_RealStrut_evol.pdf>
-Package pdftex.def Info: images/vel_RealStrut_evol.pdf  used on input line 1734
+Package pdftex.def Info: images/vel_RealStrut_evol.pdf  used on input line 1741
 .
 (pdftex.def)             Requested size: 161.8872pt x 121.41542pt.
 
-Overfull \hbox (4.91882pt too wide) in paragraph at lines 1734--1734
+Overfull \hbox (4.91882pt too wide) in paragraph at lines 1741--1741
  [][] 
  []
 
 
-Overfull \vbox (0.11128pt too high) detected at line 1734
+Overfull \vbox (0.11128pt too high) detected at line 1741
  []
 
 [28
@@ -2309,77 +2321,77 @@ RealStrut_evol.pdf
 pdfTeX warning: pdflatex (file ./images/vel_RealStrut_evol.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
 >]
-<images/conc1_CurvedStrut3.png, id=422, 1218.5525pt x 130.4875pt>
+<images/conc1_CurvedStrut3.png, id=425, 1218.5525pt x 130.4875pt>
 File: images/conc1_CurvedStrut3.png Graphic file (type png)
 <use images/conc1_CurvedStrut3.png>
-Package pdftex.def Info: images/conc1_CurvedStrut3.png  used on input line 1816
+Package pdftex.def Info: images/conc1_CurvedStrut3.png  used on input line 1823
 .
 (pdftex.def)             Requested size: 146.21999pt x 15.65782pt.
-<images/conc10_CurvedStrut3.png, id=423, 1221.56375pt x 129.48375pt>
+<images/conc10_CurvedStrut3.png, id=426, 1221.56375pt x 129.48375pt>
 File: images/conc10_CurvedStrut3.png Graphic file (type png)
 <use images/conc10_CurvedStrut3.png>
-Package pdftex.def Info: images/conc10_CurvedStrut3.png  used on input line 181
-6.
+Package pdftex.def Info: images/conc10_CurvedStrut3.png  used on input line 182
+3.
 (pdftex.def)             Requested size: 146.58131pt x 15.53737pt.
-<images/conc1_CurvedStrut5.png, id=424, 1220.56pt x 130.4875pt>
+<images/conc1_CurvedStrut5.png, id=427, 1220.56pt x 130.4875pt>
 File: images/conc1_CurvedStrut5.png Graphic file (type png)
 <use images/conc1_CurvedStrut5.png>
-Package pdftex.def Info: images/conc1_CurvedStrut5.png  used on input line 1816
+Package pdftex.def Info: images/conc1_CurvedStrut5.png  used on input line 1823
 .
 (pdftex.def)             Requested size: 146.46088pt x 15.65782pt.
-<images/conc10_CurvedStrut5.png, id=425, 1219.55624pt x 129.48375pt>
+<images/conc10_CurvedStrut5.png, id=428, 1219.55624pt x 129.48375pt>
 File: images/conc10_CurvedStrut5.png Graphic file (type png)
 <use images/conc10_CurvedStrut5.png>
-Package pdftex.def Info: images/conc10_CurvedStrut5.png  used on input line 181
-6.
+Package pdftex.def Info: images/conc10_CurvedStrut5.png  used on input line 182
+3.
 (pdftex.def)             Requested size: 146.34042pt x 15.53737pt.
-<images/conc1_CurvedStrut8.png, id=426, 1219.55624pt x 129.48375pt>
+<images/conc1_CurvedStrut8.png, id=429, 1219.55624pt x 129.48375pt>
 File: images/conc1_CurvedStrut8.png Graphic file (type png)
 <use images/conc1_CurvedStrut8.png>
-Package pdftex.def Info: images/conc1_CurvedStrut8.png  used on input line 1816
+Package pdftex.def Info: images/conc1_CurvedStrut8.png  used on input line 1823
 .
 (pdftex.def)             Requested size: 146.34042pt x 15.53737pt.
-<images/conc10_CurvedStrut8.png, id=427, 1219.55624pt x 130.4875pt>
+<images/conc10_CurvedStrut8.png, id=430, 1219.55624pt x 130.4875pt>
 File: images/conc10_CurvedStrut8.png Graphic file (type png)
 <use images/conc10_CurvedStrut8.png>
-Package pdftex.def Info: images/conc10_CurvedStrut8.png  used on input line 181
-6.
+Package pdftex.def Info: images/conc10_CurvedStrut8.png  used on input line 182
+3.
 (pdftex.def)             Requested size: 146.34042pt x 15.65782pt.
-<images/conc100_CurvedStrut3.png, id=428, 1219.55624pt x 129.48375pt>
+<images/conc100_CurvedStrut3.png, id=431, 1219.55624pt x 129.48375pt>
 File: images/conc100_CurvedStrut3.png Graphic file (type png)
 <use images/conc100_CurvedStrut3.png>
 Package pdftex.def Info: images/conc100_CurvedStrut3.png  used on input line 18
-16.
+23.
 (pdftex.def)             Requested size: 146.34042pt x 15.53737pt.
-<images/conc1000_CurvedStrut3.png, id=429, 1220.56pt x 130.4875pt>
+<images/conc1000_CurvedStrut3.png, id=432, 1220.56pt x 130.4875pt>
 File: images/conc1000_CurvedStrut3.png Graphic file (type png)
 <use images/conc1000_CurvedStrut3.png>
 Package pdftex.def Info: images/conc1000_CurvedStrut3.png  used on input line 1
-816.
+823.
 (pdftex.def)             Requested size: 146.46088pt x 15.65782pt.
-<images/conc100_CurvedStrut5.png, id=430, 1217.54875pt x 128.48pt>
+<images/conc100_CurvedStrut5.png, id=433, 1217.54875pt x 128.48pt>
 File: images/conc100_CurvedStrut5.png Graphic file (type png)
 <use images/conc100_CurvedStrut5.png>
 Package pdftex.def Info: images/conc100_CurvedStrut5.png  used on input line 18
-16.
+23.
 (pdftex.def)             Requested size: 146.09955pt x 15.41693pt.
-<images/conc1000_CurvedStrut5.png, id=431, 1219.55624pt x 129.48375pt>
+<images/conc1000_CurvedStrut5.png, id=434, 1219.55624pt x 129.48375pt>
 File: images/conc1000_CurvedStrut5.png Graphic file (type png)
 <use images/conc1000_CurvedStrut5.png>
 Package pdftex.def Info: images/conc1000_CurvedStrut5.png  used on input line 1
-816.
+823.
 (pdftex.def)             Requested size: 146.34042pt x 15.53737pt.
-<images/conc100_CurvedStrut8.png, id=432, 1220.56pt x 127.47626pt>
+<images/conc100_CurvedStrut8.png, id=435, 1220.56pt x 127.47626pt>
 File: images/conc100_CurvedStrut8.png Graphic file (type png)
 <use images/conc100_CurvedStrut8.png>
 Package pdftex.def Info: images/conc100_CurvedStrut8.png  used on input line 18
-16.
+23.
 (pdftex.def)             Requested size: 146.46088pt x 15.29648pt.
-<images/conc1000_CurvedStrut8.png, id=433, 1217.54875pt x 131.49126pt>
+<images/conc1000_CurvedStrut8.png, id=436, 1217.54875pt x 131.49126pt>
 File: images/conc1000_CurvedStrut8.png Graphic file (type png)
 <use images/conc1000_CurvedStrut8.png>
 Package pdftex.def Info: images/conc1000_CurvedStrut8.png  used on input line 1
-816.
+823.
 (pdftex.def)             Requested size: 146.09955pt x 15.77826pt.
  [29
 
@@ -2389,74 +2401,74 @@ vedStrut8.png> <./images/conc10_CurvedStrut8.png> <./images/conc100_CurvedStrut
 3.png> <./images/conc1000_CurvedStrut3.png> <./images/conc100_CurvedStrut5.png>
  <./images/conc1000_CurvedStrut5.png> <./images/conc100_CurvedStrut8.png> <./im
 ages/conc1000_CurvedStrut8.png>]
-<images/conc1_RealStrut3.png, id=451, 1217.54875pt x 171.64125pt>
+<images/conc1_RealStrut3.png, id=454, 1217.54875pt x 171.64125pt>
 File: images/conc1_RealStrut3.png Graphic file (type png)
 <use images/conc1_RealStrut3.png>
-Package pdftex.def Info: images/conc1_RealStrut3.png  used on input line 1898.
+Package pdftex.def Info: images/conc1_RealStrut3.png  used on input line 1905.
 (pdftex.def)             Requested size: 146.09955pt x 20.59605pt.
-<images/conc10_RealStrut3.png, id=452, 1222.5675pt x 175.65625pt>
+<images/conc10_RealStrut3.png, id=455, 1222.5675pt x 175.65625pt>
 File: images/conc10_RealStrut3.png Graphic file (type png)
 <use images/conc10_RealStrut3.png>
-Package pdftex.def Info: images/conc10_RealStrut3.png  used on input line 1898.
+Package pdftex.def Info: images/conc10_RealStrut3.png  used on input line 1905.
 
 (pdftex.def)             Requested size: 146.70177pt x 21.07784pt.
-<images/conc1_RealStrut5.png, id=453, 1219.55624pt x 172.645pt>
+<images/conc1_RealStrut5.png, id=456, 1219.55624pt x 172.645pt>
 File: images/conc1_RealStrut5.png Graphic file (type png)
 <use images/conc1_RealStrut5.png>
-Package pdftex.def Info: images/conc1_RealStrut5.png  used on input line 1898.
+Package pdftex.def Info: images/conc1_RealStrut5.png  used on input line 1905.
 (pdftex.def)             Requested size: 146.34042pt x 20.71649pt.
-<images/conc10_RealStrut5.png, id=454, 1220.56pt x 170.6375pt>
+<images/conc10_RealStrut5.png, id=457, 1220.56pt x 170.6375pt>
 File: images/conc10_RealStrut5.png Graphic file (type png)
 <use images/conc10_RealStrut5.png>
-Package pdftex.def Info: images/conc10_RealStrut5.png  used on input line 1898.
+Package pdftex.def Info: images/conc10_RealStrut5.png  used on input line 1905.
 
 (pdftex.def)             Requested size: 146.46088pt x 20.4756pt.
-<images/conc1_RealStrut8.png, id=455, 1218.5525pt x 172.645pt>
+<images/conc1_RealStrut8.png, id=458, 1218.5525pt x 172.645pt>
 File: images/conc1_RealStrut8.png Graphic file (type png)
 <use images/conc1_RealStrut8.png>
-Package pdftex.def Info: images/conc1_RealStrut8.png  used on input line 1898.
+Package pdftex.def Info: images/conc1_RealStrut8.png  used on input line 1905.
 (pdftex.def)             Requested size: 146.21999pt x 20.71649pt.
-<images/conc10_RealStrut8.png, id=456, 1221.56375pt x 171.64125pt>
+<images/conc10_RealStrut8.png, id=459, 1221.56375pt x 171.64125pt>
 File: images/conc10_RealStrut8.png Graphic file (type png)
 <use images/conc10_RealStrut8.png>
-Package pdftex.def Info: images/conc10_RealStrut8.png  used on input line 1898.
+Package pdftex.def Info: images/conc10_RealStrut8.png  used on input line 1905.
 
 (pdftex.def)             Requested size: 146.58131pt x 20.59605pt.
-<images/conc100_RealStrut3.png, id=457, 1221.56375pt x 173.64874pt>
+<images/conc100_RealStrut3.png, id=460, 1221.56375pt x 173.64874pt>
 File: images/conc100_RealStrut3.png Graphic file (type png)
 <use images/conc100_RealStrut3.png>
-Package pdftex.def Info: images/conc100_RealStrut3.png  used on input line 1898
+Package pdftex.def Info: images/conc100_RealStrut3.png  used on input line 1905
 .
 (pdftex.def)             Requested size: 146.58131pt x 20.83694pt.
-<images/conc1000_RealStrut3.png, id=458, 1219.55624pt x 172.645pt>
+<images/conc1000_RealStrut3.png, id=461, 1219.55624pt x 172.645pt>
 File: images/conc1000_RealStrut3.png Graphic file (type png)
 <use images/conc1000_RealStrut3.png>
-Package pdftex.def Info: images/conc1000_RealStrut3.png  used on input line 189
-8.
+Package pdftex.def Info: images/conc1000_RealStrut3.png  used on input line 190
+5.
 (pdftex.def)             Requested size: 146.34042pt x 20.71649pt.
-<images/conc100_RealStrut5.png, id=459, 1220.56pt x 171.64125pt>
+<images/conc100_RealStrut5.png, id=462, 1220.56pt x 171.64125pt>
 File: images/conc100_RealStrut5.png Graphic file (type png)
 <use images/conc100_RealStrut5.png>
-Package pdftex.def Info: images/conc100_RealStrut5.png  used on input line 1898
+Package pdftex.def Info: images/conc100_RealStrut5.png  used on input line 1905
 .
 (pdftex.def)             Requested size: 146.46088pt x 20.59605pt.
-<images/conc1000_RealStrut5.png, id=460, 1220.56pt x 171.64125pt>
+<images/conc1000_RealStrut5.png, id=463, 1220.56pt x 171.64125pt>
 File: images/conc1000_RealStrut5.png Graphic file (type png)
 <use images/conc1000_RealStrut5.png>
-Package pdftex.def Info: images/conc1000_RealStrut5.png  used on input line 189
-8.
+Package pdftex.def Info: images/conc1000_RealStrut5.png  used on input line 190
+5.
 (pdftex.def)             Requested size: 146.46088pt x 20.59605pt.
-<images/conc100_RealStrut8.png, id=461, 1222.5675pt x 172.645pt>
+<images/conc100_RealStrut8.png, id=464, 1222.5675pt x 172.645pt>
 File: images/conc100_RealStrut8.png Graphic file (type png)
 <use images/conc100_RealStrut8.png>
-Package pdftex.def Info: images/conc100_RealStrut8.png  used on input line 1898
+Package pdftex.def Info: images/conc100_RealStrut8.png  used on input line 1905
 .
 (pdftex.def)             Requested size: 146.70177pt x 20.71649pt.
-<images/conc1000_RealStrut8.png, id=462, 1219.55624pt x 172.645pt>
+<images/conc1000_RealStrut8.png, id=465, 1219.55624pt x 172.645pt>
 File: images/conc1000_RealStrut8.png Graphic file (type png)
 <use images/conc1000_RealStrut8.png>
-Package pdftex.def Info: images/conc1000_RealStrut8.png  used on input line 189
-8.
+Package pdftex.def Info: images/conc1000_RealStrut8.png  used on input line 190
+5.
 (pdftex.def)             Requested size: 146.34042pt x 20.71649pt.
  [30
 
@@ -2472,10 +2484,10 @@ t8.png>] [31
 ] [33
 
 ]
-<images/faperj.jpg, id=497, 210.7875pt x 67.25125pt>
+<images/faperj.jpg, id=500, 210.7875pt x 67.25125pt>
 File: images/faperj.jpg Graphic file (type jpg)
 <use images/faperj.jpg>
-Package pdftex.def Info: images/faperj.jpg  used on input line 2040.
+Package pdftex.def Info: images/faperj.jpg  used on input line 2047.
 (pdftex.def)             Requested size: 84.3135pt x 26.90001pt.
  [34
 
@@ -2489,23 +2501,23 @@ Package pdftex.def Info: images/faperj.jpg  used on input line 2040.
 \tf@snm=\write8
 \openout8 = `example.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2045.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2045.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2052.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2052.
  (./example.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2045.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2045.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2052.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2052.
 
 Package rerunfilecheck Info: File `example.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) ) 
 Here is how much of TeX's memory you used:
- 35994 strings out of 492982
- 857614 string characters out of 6134896
- 1233774 words of memory out of 5000000
- 38642 multiletter control sequences out of 15000+600000
+ 35976 strings out of 492982
+ 857273 string characters out of 6134896
+ 1233651 words of memory out of 5000000
+ 38624 multiletter control sequences out of 15000+600000
  37648 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,12n,101p,774b,1003s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,14n,101p,774b,1003s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
@@ -2531,9 +2543,9 @@ blic/cm-super/sfss2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss24
 88.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0800.pfb></usr/share/t
 exmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfsx1095.pfb>
-Output written on example.pdf (34 pages, 1998873 bytes).
+Output written on example.pdf (34 pages, 2019194 bytes).
 PDF statistics:
- 600 PDF objects out of 1000 (max. 8388607)
+ 603 PDF objects out of 1000 (max. 8388607)
  417 compressed objects within 5 object streams
  70 named destinations out of 1000 (max. 500000)
  362 words of extra memory for PDF output out of 10000 (max. 10000000)

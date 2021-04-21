@@ -33,7 +33,7 @@ Motivation:
 Goals:
 \begin{itemize}
  \justifying
- \item To develop a ALE-FE code for the Vorticity-Streamfunction Formulation 
+ \item To develop a ALE-FE code for 2D Navier-Stokes Equation with Species Transport Equation
 
 
  \vspace{0.2cm}
@@ -328,11 +328,11 @@ Assumptions [3]:\\[0.1cm]
 \column{.5\textwidth}
 \begin{center}
 \begin{equation*}
- \frac{\partial \omega_{z}}{\partial t} + \left( \mathbf{v} - \mathbf{\hat{v}} \right) \cdot \nabla \omega_{z} = \frac{1}{Re} \nabla^{2} \omega_{z}
+ \frac{\partial \textbf{v}}{\partial t} + \left( \mathbf{v} - \mathbf{\hat{v}} \right) \cdot \nabla \textbf{v} = -\nabla p + \frac{1}{Re} \nabla^{2} \textbf{v}
 \end{equation*}
 \medskip
 \begin{equation*}
- \nabla^{2} \psi = - \omega_{z}
+ \nabla \cdot \textbf{v} = 0
 \end{equation*}
 \medskip
 \begin{equation*}
@@ -346,13 +346,9 @@ Assumptions [3]:\\[0.1cm]
 \justifying
 \item If the mesh velocity field $\mathbf{\hat{v}} = \mathbf{v} \left( Lagrangian \right)$ or $\mathbf{\hat{v}}$ = 0 \left( Eulerian \right)$\\
 
-\bigskip
-\item The material velocity field $\mathbf{v} = \left( v_{x}, v_{y} \right)$ is calculated by:\\ 
-$v_{x} = \partial \psi / \partial y$ and 
-$v_{y} = - \partial \psi / \partial x$
 \end{itemize}
 
-\vspace{0.2cm}
+\vspace{0.5cm}
 \tiny [3]
 Panton, R. (2013). Incompressible Flow John Wiley \& Sons, Ltd
 
@@ -374,11 +370,11 @@ The convective term was replaced by material derivative in the direction of char
 
 \column{.5\textwidth}
 \begin{equation*}
- \frac{D \omega_{z}}{D t} = \frac{1}{Re} \nabla^{2} \omega_{z}
+ \frac{D \textbf{v}}{D t} = -\nabla p + \frac{1}{Re} \nabla^{2} \textbf{v}
 \end{equation*}
 \\
 \begin{equation*}
- \nabla^{2} \psi = - \omega_{z}
+ \nabla \cdot \textbf{v} = 0
 \end{equation*}
 \\
 \begin{equation*}
@@ -479,11 +475,15 @@ Disadvantages:
 
 \column{.5\textwidth}
 \begin{equation*}
- \frac{\omega_{i}^{n+1} - \omega_{d}^{n}}{\Delta t} = \frac{1}{Re} \nabla^{2} \omega^{n+1}
+ \frac{\textbf{v}_{i}^{n+1} - \textbf{v}_{d}^{n}}{\Delta t} = -\nabla p^{n+1} + \frac{1}{Re} \nabla^{2} \textbf{v}^{n+1}
 \end{equation*}
+
+\vspace{0.3cm}
 \begin{equation*}
- \nabla^{2} \psi = - \omega
+ \nabla \cdot \textbf{v} = 0
 \end{equation*}
+
+\vspace{0.1cm}
 \begin{equation*}
  \frac{e_{i}^{n+1} - e_{d}^{n}}{\Delta t} = \frac{1}{ReSc} \nabla^{2} e^{n+1}
 \end{equation*}
@@ -722,24 +722,21 @@ is performed
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
 \begin{frame} 
  \frametitle{\LARGE Galerkin FE Method}
 \vspace{-1cm}
 \begin{columns}[c]
-\column{.5\textwidth}
+\column{.2\textwidth}
 \begin{figure}[H]
 \begin{center}
 \begin{tikzpicture}[scale=1.8]
 
- \node at (0.5,1.5) {\scriptsize Quad Element};
+ \node at (0.5,1.5) {\scriptsize Mini Element};
  \draw (0,2) -- (1,2) -- (0.5,3) -- cycle;
  \node[circle, fill=black, inner sep=0pt, minimum size=5pt,label=below left:{1}] at (0,2) {};
  \node[circle, fill=black, inner sep=0pt, minimum size=5pt,label=below right:{2}] at (1,2) {};
  \node[circle, fill=black, inner sep=0pt, minimum size=5pt,label=above:{3}] at (0.5,3) {};
- \node[circle, fill=black, inner sep=0pt, minimum size=5pt,label=below:{4}] at (0.5,2) {};
- \node[circle, fill=black, inner sep=0pt, minimum size=5pt,label=right:{5}] at (0.75,2.5) {};
- \node[circle, fill=black, inner sep=0pt, minimum size=5pt,label=left:{6}] at (0.25,2.5) {};
+ \node[circle, fill=black, inner sep=0pt, minimum size=5pt,label=above:{4}] at (0.5,2.3) {};
 
  \node at (0.5,-0.4) {\scriptsize Linear Element};
  \draw (0,0) -- (1,0) -- (0.5,1) -- cycle;
@@ -772,26 +769,33 @@ is performed
 \vspace{-1cm}
 \column{.5\textwidth}
 \begin{center}
-\begin{equation*}
- \left[ \frac{\mathbf{M}}{\Delta t} + \frac{\mathbf{K}}{Re} \right] \omega_{i}^{n+1} = \frac{\mathbf{M}}{\Delta t} \omega_{d}^{n}
-\end{equation*}
+
+\[
+\begin{bmatrix}
+\frac{\mathbf{M}}{\Delta t} + \frac{\mathbf{K}}{Re} & -\mathbf{G}\\
+\\
+\mathbf{D} & 0
+\end{bmatrix}
+\begin{bmatrix}
+\textbf{v}_{i}^{n+1}\\
+\\
+p
+\end{bmatrix}
+=
+\begin{bmatrix}
+\frac{\mathbf{M}}{\Delta t} \textbf{v}_{d}^{n}\\
+\\
+0
+\end{bmatrix}
++ bc
+\]
+
 \medskip
 \begin{equation*}
- \mathbf{K} \psi = \mathbf{M} \omega
-\end{equation*}
-\medskip
-\begin{equation*}
- \left[ \frac{\mathbf{M}}{\Delta t} + \frac{\mathbf{K}}{ReSc} \right] e_{i}^{n+1} = \frac{\mathbf{M}}{\Delta t} e_{d}^{n}
+ \left[ \frac{\mathbf{M}}{\Delta t} + \frac{\mathbf{K}}{ReSc} \right] e_{i}^{n+1} = \frac{\mathbf{M}}{\Delta t} e_{d}^{n} + bc_{e}
 \end{equation*}
 \end{center}
 
-\vspace{0.5cm}
-\begin{itemize}
-\justifying
-\item The material velocity field is calculated by: \\
-$\mathbf{M} v_{x} = \mathbf{G_{y}} \psi$\\
-$\mathbf{M} v_{y} = - \mathbf{G_{x}} \psi$
-\end{itemize}
 \end{columns}
 
 \end{frame}
@@ -800,6 +804,9 @@ $\mathbf{M} v_{y} = - \mathbf{G_{x}} \psi$
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
 
 \begin{frame}
  \frametitle{\LARGE Mesh Velocity}
