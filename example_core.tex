@@ -8,10 +8,8 @@
   \vspace{-1cm}
   1. Introduction\\[0.1cm]
   2. Mathematical Model\\[0.1cm]
-  3. Computational Code\\[0.1cm]
-  4. Validation\\[0.1cm]
-  5. Results\\[0.1cm]
-  6. Conclusion
+  3. Results\\[0.1cm]
+  4. Conclusion
 \end{frame}
 
 
@@ -62,10 +60,8 @@ Goals:
   \vspace{-1cm}
   \textcolor{gray}{1. Introduction}\\[0.1cm]
   2. Mathematical Model\\[0.1cm]
-  \textcolor{gray}{3. Computational Code}\\[0.1cm]
-  \textcolor{gray}{4. Validation}\\[0.1cm]
-  \textcolor{gray}{5. Results}\\[0.1cm]
-  \textcolor{gray}{6. Conclusion}
+  \textcolor{gray}{3. Results}\\[0.1cm]
+  \textcolor{gray}{4. Conclusion}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -359,6 +355,8 @@ Panton, R. (2013). Incompressible Flow John Wiley \& Sons, Ltd
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\iffalse
 \begin{frame} 
  \frametitle{\LARGE Semi-Lagrangian Method}
 \vspace{-1cm}
@@ -440,7 +438,7 @@ The departure node is calculated by $x_{d}^{n} = x_{i}^{n+1} - \left( \mathbf{v}
 \end{center}
 \end{columns}
 \end{frame}
-
+\fi
 
 
 
@@ -500,7 +498,7 @@ Pironneau, O. On the transport-diffusion algorithm and its applications to the N
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+\iffalse
 \begin{frame} 
  \frametitle{\LARGE Searching Procedure}
 \vspace{-1cm}
@@ -716,7 +714,7 @@ is performed
 \end{center}
 \end{columns}
 \end{frame}
-
+\fi
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -840,7 +838,7 @@ the parameters control the Lagrangian and Laplacian motion respectively.
 
 
 
-
+\iffalse
 \begin{frame}
  \frametitle{\LARGE Laplacian Smoothing}
 
@@ -879,7 +877,7 @@ $w_{ij}$ is the weight and was calculated by the inverse distance from neighbors
 \vspace{1cm}
 \tiny [5] Zheng,  Y.  Lewis,  R.  Gethin,  D., Three-dimensional unstructured mesh generation: Part 2. surface meshes. Computer Methods in Applied Mechanics and Engineering, Amsterdam: North-Holland Pub. Co., c1972-, v. 134, n. 3, p. 269–284, 1996.
 \end{frame}
-
+\fi
 
 
 
@@ -888,7 +886,7 @@ $w_{ij}$ is the weight and was calculated by the inverse distance from neighbors
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
+\iffalse
 \begin{frame}
   \vspace{-1cm}
   \textcolor{gray}{1. Introduction}\\[0.1cm]
@@ -1551,16 +1549,14 @@ Top plate: $u=1$, $v=0$ e $\psi=0$
 \end{frame}
 \fi
 
-
+\fi
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
   \vspace{-1cm}
   \textcolor{gray}{1. Introduction}\\[0.1cm]
   \textcolor{gray}{2. Mathematical Model}\\[0.1cm]
-  \textcolor{gray}{3. Computational Code}\\[0.1cm]
-  \textcolor{gray}{4. Validation}\\[0.1cm]
-  5. Results\\[0.1cm]
-  \textcolor{gray}{6. Conclusion}
+  3. Results\\[0.1cm]
+  \textcolor{gray}{4. Conclusion}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -1580,46 +1576,47 @@ Top plate: $u=1$, $v=0$ e $\psi=0$
 \begin{figure}
   \vspace{-1cm}
      \centering
-     \begin{minipage}{.45\linewidth}
       \centering
-      \includegraphics[scale=0.15]{images/CurvedStrut.png}\\
-      \scriptsize (a)
-     \end{minipage}%
-     \begin{minipage}{.45\linewidth}
-      \centering
-      \includegraphics[scale=0.15]{images/RealStrut.png}\\
-      \scriptsize (b)
-     \end{minipage}
+      \includegraphics[scale=0.5]{images/CurvedStrut.png}\\
 \end{figure}
-\vspace{-0.3cm}
+\vspace{-0.5cm}
 \begin{center}
 \scriptsize 
-     Non-dimensional symmetric geometry for blood flow in coronary artery with drug-eluting stent placed by Wang et al. (2017):
-     (a) Curved Channel with Stent
-     (b) Real Channel with Stent.
+     Non-dimensional domain for the analysis of concentration diffusion in coronary artery with drug-eluting stent, where the atherosclerosis was modeled by a sinusoidal equation with 40\% of channel obstruction. 
 \end{center}
 \vspace{0.05cm}
 \small
+Parameters of simulation [5]:\\[0.3cm]
 \begin{center}
 \begin{columns}[c]
+\hspace{0.5cm}
 \begin{column}{0.8\textwidth} 
-Inflow condition: $v_{x}=u_{analytical}$, $v_{y}=0$;\\[0.1cm]
-Top plate: $v_{x}=0$, $v_{y}=0$, $\psi=1$;\\[0.1cm]
-Symmetry condition: $v_{y}=0$, $\psi=0$; \\[0.1cm]
-Drug-eluting stent: $v_{x}=0$, $v_{y}=0$, $\psi=1$, $e=1$\\[0.1cm]
-Vorticity condition: $\omega = \nabla \times \textbf{v}$\\[0.1cm]
-$\beta_{1}=0$ \qquad $\beta_{2}=1$
-\end{column}
-\hspace{-1cm}
-\begin{column}{0.3\textwidth}
 $R=0.0015m$\\[0.1cm]
 $\mu=0.0035Pa.s$\\[0.1cm]
 $\rho=1060kg/m^3$\\[0.1cm]\\
-$u=12cm/s$\\[0.1cm]
-$Re=54.5$
+$u=12cm/s$
+\end{column}
+\hspace{-5cm}
+\begin{column}{0.3\textwidth}
+$\beta_{1}=0$\\[0.1cm]
+$\beta_{2}=1$\\[0.1cm]
+$Re=54.5$\\[0.1cm]
+$Sc=1.0$
+\end{column}
+\hspace{-1cm}
+\begin{column}{0.3\textwidth}
+$\text{numNodes}=0$\\[0.1cm]
+$\text{numVerts}=1$\\[0.1cm]
+$\text{numElements}=54.5$\\[0.1cm]
+$\text{dt}=0$ \qquad $\text{nt}=0$
 \end{column}
 \end{columns}
 \end{center}
+\justifying
+\tiny [5]
+Bozsak, F.; J-M., C.; Barakat, A. Modeling the transport of drugs eluted from stents: physical phenomena driving drug distribution in the arterial wall. Biomech Model Mechanobiol 2014, 13, 327–347.
+\textit{doi:10.1007/s10237-013-0546-4}
+
 \end{frame}
 
 
@@ -1681,6 +1678,7 @@ $Re=54.5$
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\iffalse
 \begin{frame}
  \frametitle{\LARGE Results - Velocity Field}
 
@@ -1903,6 +1901,7 @@ $Re=54.5$
 \centering \scriptsize Evolution in time and space of concentration field in Real Channel:\\
                  $Sc=100$ (left column) and $Sc=1000$ (right column)
 \end{frame}
+\fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -1912,10 +1911,8 @@ $Re=54.5$
   \vspace{-1cm}
   \textcolor{gray}{1. Introduction}\\[0.1cm]
   \textcolor{gray}{2. Mathematical Model}\\[0.1cm]
-  \textcolor{gray}{3. Computational Code}\\[0.1cm]
-  \textcolor{gray}{4. Validation}\\[0.1cm]
-  \textcolor{gray}{5. Results}\\[0.1cm]
-  6. Conclusion
+  \textcolor{gray}{3. Results}\\[0.1cm]
+  4. Conclusion
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2033,17 +2030,6 @@ in this work
  \Huge Thank you!\\
  \vspace{0.5cm}
  \small marquesleandro67@gmail.com\\
- \small gustavo.rabello@coppe.ufrj.br\\
- \small jose.pontes@uerj.br\\
- \vspace{1.0cm}
- \small The authors thank the FAPERJ (Research Support Foundation of the State of Rio de Janeiro)
-        for its financial support
-
- \vspace{-0.2cm}
- \begin{figure}
-  \centering
-  \includegraphics[scale=0.4]{images/faperj.jpg}\\
- \end{figure}
 \end{frame}
 
 
