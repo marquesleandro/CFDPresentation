@@ -1605,10 +1605,10 @@ $Sc=1.0$
 \end{column}
 \hspace{-1cm}
 \begin{column}{0.3\textwidth}
-$\text{numNodes}=0$\\[0.1cm]
-$\text{numVerts}=1$\\[0.1cm]
-$\text{numElements}=54.5$\\[0.1cm]
-$\text{dt}=0$ \qquad $\text{nt}=0$
+$\text{numNodes}=1549$\\[0.1cm]
+$\text{numVerts}=577$\\[0.1cm]
+$\text{numElements}=972$\\[0.1cm]
+$\text{interações}=253$ \qquad $\text{dt}=0.025$
 \end{column}
 \end{columns}
 \end{center}
@@ -1940,27 +1940,16 @@ Bozsak, F.; J-M., C.; Barakat, A. Modeling the transport of drugs eluted from st
 %
 % \vspace{0.3cm}
 
- \item The ALE description allows to perform simulations in the fluid-structure and moving boundary problems, in addition it is possible to assign
-several mesh velocity values in specific regions of the problem
-in order to improve the accuracy of the numerical results\\
+ \item The ALE description allows to perform simulations in the fluid-structure and moving boundary problems\\
 
  \vspace{0.3cm}
 
- \item The searching procedure of the semi-Lagrangian Method
-used in this work
-was well designed since it corresponds to only 2\% of
-average computational cost of the numerical simulation.
-Therefore, the methos showed to be very useful 
+ \item The semi-Lagragian Method showed to be very useful 
  due to the unconditionnal stability and symmetric linear system\\
 
  \vspace{0.3cm}
 
- \item As expected, the chemical species transport in blood flow
-is directly influenced by Schmidt number, where the diffusion is
-increased as the Schmidt number decreases. It is possible that
-the density and viscosity of the blood are affected by 
-chemical species diffusion. However, this influence is not considered
-in this work
+ \item The Navier-Stokes allows a smooth implementation for 3D cases
 
 \end{enumerate}
 \end{frame}
@@ -1979,19 +1968,19 @@ in this work
 
 % \vspace{0.3cm}
  
- \item Increase assembly performance\\
+ \item Sparse matrix implementation\\
 
  \vspace{0.3cm}
 
- \item The use of primitive variables in the 3D Navier-Stokes equation \\
+ \item 3D Navier-Stokes implementation\\
 
  \vspace{0.3cm}
 
- \item Blood flow model as a multiphase problem \\
+ \item Blood flow model as a non-Newtonian fluid\\
 
  \vspace{0.3cm}
 
- \item Blood flow model as a non-Newtonian fluid
+ \item Blood flow model as a multiphase problem
 \end{enumerate}
 \end{frame}
 
